@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.android.courtcounter;
+package com.example.android.footballcounter;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -23,7 +23,7 @@ import android.view.View;
 import android.widget.TextView;
 
 /**
- * This activity keeps track of the basketball score for 2 teams.
+ * This activity keeps track of the football score for 2 teams.
  */
 public class MainActivity extends AppCompatActivity {
 
