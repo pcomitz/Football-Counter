@@ -60,11 +60,11 @@ public class MainActivity extends AppCompatActivity {
         if (id == R.id.action_settings) {
             return true;
         }
-
         return super.onOptionsItemSelected(item);
     }
 
     /**
+     * Extra Point
      * Increase the score for Team A by 1 point.
      */
     public void addOneForTeamA(View v) {
@@ -73,6 +73,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
+     * Safety
      * Increase the score for Team A by 2 points.
      */
     public void addTwoForTeamA(View v) {
@@ -81,10 +82,20 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
+     * Field Goal
      * Increase the score for Team A by 3 points.
      */
     public void addThreeForTeamA(View v) {
         scoreTeamA = scoreTeamA + 3;
+        displayForTeamA(scoreTeamA);
+    }
+
+    /**
+     * Touchdown
+     * Increase the score for Team A by 6 points.
+     */
+    public void addSixForTeamA(View v) {
+        scoreTeamA = scoreTeamA + 6;
         displayForTeamA(scoreTeamA);
     }
 
@@ -109,6 +120,15 @@ public class MainActivity extends AppCompatActivity {
      */
     public void addThreeForTeamB(View v) {
         scoreTeamB = scoreTeamB + 3;
+        displayForTeamB(scoreTeamB);
+    }
+
+    /**
+     * Touchdown
+     * Increase the score for Team A by 6 points.
+     */
+    public void addSixForTeamB(View v) {
+        scoreTeamB = scoreTeamB + 6;
         displayForTeamB(scoreTeamB);
     }
 
